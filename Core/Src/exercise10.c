@@ -13,8 +13,8 @@
 #define LED_OFF 0
 
 void exercise10_run(){
-	int hr = 0;
-	int min = 0;
+	int hr = 7;
+	int min = 55;
 	int sec = 0;
 
 	while (1){
@@ -34,7 +34,7 @@ void exercise10_run(){
 		if (hr >= 12){
 			hr = 0;
 		}
-		HAL_Delay(100);
+		HAL_Delay(10);
 	}
 }
 
